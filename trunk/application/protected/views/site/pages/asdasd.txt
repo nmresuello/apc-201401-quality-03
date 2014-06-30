@@ -1,0 +1,56 @@
+<?php
+$this->pageTitle=Yii::app()->name . ' - Admin';
+$this->breadcrumbs=array(
+	'Admin',
+);
+?>
+
+<table>
+<tbody>
+<tr>
+<td width="50%" valign="top" style="vertical-align:top">
+<strong>Personnel Management</strong>
+<br>
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Employee',array('Employee/Index')); ?> <br />
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Account',array('User/Index')); ?> <br />
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Rank',array('Rank/Index')); ?> <br />
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Unit',array('Unit/Index')); ?> <br />
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Status',array('Status/Index')); ?> <br />
+
+<br />
+
+<strong>Claim Management</strong>
+<br>
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Particular Claims',array('Particular/Index')); ?> <br />
+<br />
+
+<strong>Claim Status Updates</strong> <br>
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Transactions',array('Transaction/Index')); ?> <br />
+
+
+<br>
+</td>
+<td width="50%" valign="top" style="vertical-align:top">
+
+<strong>Personnel History Management</strong>
+<br>
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Rank History',array('RankHistory/Index')); ?> <br />
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Unit History',array('UnitHistory/Index')); ?> <br />
+<br />
+
+<strong>Payroll Management</strong>
+<br>
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Payroll Details',array('Payroll/Index')); ?> <br />
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Payroll Records',array('EmployeesHasPayroll/Index')); ?> <br />
+<br />
+
+<strong>Department Management</strong>
+<br>
+&nbsp;&nbsp;&rarr;&nbsp;<?php echo CHtml::link('Department',array('Department/Index')); ?> <br />
+<br />
+
+
+</td>
+</tr>
+</tbody>
+</table>

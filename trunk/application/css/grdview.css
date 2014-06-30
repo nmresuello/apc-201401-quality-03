@@ -1,0 +1,121 @@
+.grid-view-loading
+{
+	background:url(loading.gif) no-repeat;
+}
+
+.grid-view
+{
+	padding: 10px 0;
+}
+
+
+.items
+{
+	background: #F8F8F8;
+	border-collapse: collapse; */
+	width: 100%;
+	/** border: 1px #D0E3EF solid; */
+	color: #0868a4;
+}
+
+table.items th, table.items td
+{
+	font-size: 12px;
+	border-bottom: 1px #C3D9FF solid;
+}
+
+table.items th
+{
+	text-align: center;
+}
+
+table.items th a
+{
+	color: #322dfd;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+table.items th a:hover
+{
+	color: #0680cd;
+}
+
+table.items th a.asc
+{
+	background:url(up.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+table.items th a.desc
+{
+	background:url(down.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+table.items tr.even
+{
+	background: #F8F8F8;
+}
+
+table.items tr.odd
+{
+	background: #E5F1F4;
+}
+
+table.items tr.selected
+{
+	background: #C3D9FF;
+}
+
+table.items tr:hover
+{
+	background: #C3D9FF;
+}
+
+.link-column img
+{
+	border: 0;
+}
+
+.button-column
+{
+	text-align: center;
+	width: 60px;
+}
+
+.button-column img
+{
+	border: 0;
+}
+
+.checkbox-column
+{
+	width: 15px;
+}
+
+.summary
+{
+	font-size: 12px;
+	margin: 0 0 5px 0;
+	text-align: right;
+}
+
+.pager
+{
+	margin: 5px 0 0 0;
+	text-align: right;
+}
+
+.empty
+{
+	font-style: italic;
+}
+
+.filters input,
+.filters select
+{
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}

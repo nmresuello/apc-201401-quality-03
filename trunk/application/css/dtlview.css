@@ -1,0 +1,30 @@
+.items
+{
+	background: none;
+}
+
+.items thead th, .items thead th a, thead th{
+   background:#0c5b89!important;
+   color:#fff!important;
+   border:none!important;
+}
+.items thead th a:hover{
+   color:#8cb4da!important;
+}
+
+tbody tr:nth-child(odd) td .null, tbody tr:nth-child(even) td .null{
+color:#ccc; font-style:italic;
+}
+
+
+
+tbody tr:nth-child(odd) th, tbody tr:nth-child(even) th{
+	color:#1d4cac;
+	width:185px;
+}
+
+
+.login tbody tr:nth-child(odd) td,  .login tbody tr:nth-child(odd) th, .login tbody tr:nth-child(even) td, .login tbody tr:nth-child(even) th{
+	background:none;border-bottom:none;
+}
+

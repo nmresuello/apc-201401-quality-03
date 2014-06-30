@@ -1,0 +1,2 @@
+payroll_number	amount	claim	period_covered_from	period_covered_to	affcmfo	afmfo	afrmo	affc	afac	coa	afac2	for_check	credited	debit_ad	check_no	gross_amt	payee	ded_amt	unit	batch_no
+200801-1946	160397.07	VARIABLE-RESTORED PAY/LP	1/1/2008 00:00:00	1/31/2008 00:00:00		1/23/2008 00:00:00			1/31/2008 00:00:00			2/11/2008 00:00:00								1

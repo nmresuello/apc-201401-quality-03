@@ -1,0 +1,412 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-family: century gothic;
+	font-size: 14px;
+	background: #e0eff8 url(../images/bg.jpg) center repeat fixed;
+}
+
+
+a{
+	text-decoration:none;
+	color: #0049a4;
+}
+
+a:hover{
+	color: #003b85;
+	filter: alpha(opacity=80); 
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+height: 8px;
+width: 15px;
+background: #a9bbfe;
+}
+
+::-webkit-scrollbar-thumb {
+background:#035ebc;
+}
+
+
+h1{
+	font-weight:bold;
+}
+h2, h3,
+h4, h5, h6{
+	font-weight:bold;
+	margin-bottom:-10px;
+}
+
+
+#page
+{
+	box-shadow: 0px 0px 10px 0px #4077b5;
+	height:auto;
+	margin-top:-20px;
+	background: #b0d6fc; /*#CEEDDB; */ 
+	margin-bottom: 50px;
+	/*background: url(../images/bg.png) no-repeat;*/
+}
+
+#header
+{
+	text-align:left;
+	margin-top: 10px;
+	margin-left: 200px;
+	padding: 20px;
+}
+
+#sysname
+{
+	display:block;
+	position:relative;
+	color: #000000;
+	margin-top:10px;
+	font-size: 12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:2px
+}
+
+#content
+{
+	margin-top:-20px;
+	padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+
+#footer
+{
+	display:block;
+	position:relative;
+	color: #373737;
+	bottom:10px;
+	margin-top:-30px;
+	font-size: 10px;
+	text-align: center;
+	text-transform:uppercase;
+}
+
+#footer a{
+	color: #014ea5;
+}
+
+#footer a:hover{
+	color: #000000;;
+}
+
+#footer:hover {	
+	color: #000000;
+	-webkit-transition: background 4s ease, color 1s ease;
+  	-moz-transition: background 4s ease, color 1s ease;
+  	-o-transition: background 4s ease, color 1s ease;
+  	-ms-transition: background 4s ease, color 1s ease;
+  	transition: background 4s ease, color 1s ease;
+}
+
+
+/** #logo
+{
+	display: block;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 10px;
+	text-decoration: none;
+	font-weight: normal;
+	letter-spacing:0px;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#666;
+	text-shadow:#666 0px 0px 4px;
+	
+	font-size: 300%;
+	font-style: shadow;
+	border: dotted;
+	border-color: #a6b7f9;
+
+} */
+
+#mainmenu
+{
+	text-align:left;
+	position:relative;
+	margin-left:300px;
+}
+
+#mainmenu ul
+{
+	margin-top:-40px;
+	font-family: impact, san serif;
+}
+
+#mainmenu ul li
+{
+	margin:8px;
+	display: inline;
+	list-style-type:none;
+	padding: 5px;
+}
+
+#mainmenu ul li a
+{
+	color:#2e5d92;
+	font-size:20px;
+	text-decoration:none;
+
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li:hover, #mainmenu ul li.active
+{
+	color: #2e5d92;
+	text-decoration: underline;
+	font-weight:500;
+	filter: alpha(opacity=80); 
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+}
+
+#loginpica{
+	position:relative;
+	margin:auto;
+	margin-left:50%;
+	margin-top:20%;
+	background-image:url('../images/logo.png');
+	background-position: top;
+	background-repeat:no-repeat;
+	background-size: 200px 200px;
+	border-radius:100px; box-shadow:0 0 0.3em #b5b5b5
+}
+
+.pager ul.yiiPager a:link, ul.yiiPager a:visited{
+	border: solid 1px #2d5b99;
+	font-weight: bold;
+	color: #2d4c99;
+	padding: 1px 6px;
+	text-decoration: none;
+}
+.pager ul.yiiPager a:hover {
+	background: #fff;
+	color: #000;
+	font-weight: bold;
+}
+.pager ul.yiiPager .selected a {
+	background: #2d6299;
+	color: white;
+	font-weight: bold;
+}
+.list-view .pager, .grid-view .pager {color:#aaa;}	
+
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#bfdcff;
+	color:#0255c4;
+	border-color:#2481ff;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border-bottom: 1px #000fff dashed;
+	/*padding: 10px;
+	margin: 10px 0;
+	border: none;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom: 1px solid #ddd;*/
+}
+
+div.breadcrumbs
+{
+    -webkit-box-shadow:inset 0 1px 0 #72b3d3, inset 0 -1px 0 #155f8e;
+    -moz-box-shadow:inset 0 1px 0 #72b3d3, inset 0 -1px 0 #155f8e;
+    padding: 10px;
+    color: #ac936a;
+	font-weight: bold;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 0;
+	background:;
+}
+
+.portlet
+{
+}
+
+.portlet-decoration
+{
+
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+/*
+	padding: 3px 8px;
+	background-image: -moz-linear-gradient(center top , rgb(51, 207, 255), rgb(0, 156, 254));
+	background: 	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#009CCC));
+	box-shadow: 0px 1px 0px #5CD9FF inset;
+	border: 1px solid #008DB8;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#e7e8ef',GradientType=0 );
+	*/
+}
+
+.portlet-title
+{
+	
+	text-transform: uppercase;
+	text-rendering: optimizelegibility;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #1b6595;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 10px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	color: #000000;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	/*padding: 2px 0 4px 0px;*/
+	padding: 10px;
+	background: none;
+    font-weight:700;
+    color:#666666;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+/*.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+*/
+
+.portlet-content li a, .operations li a
+{
+	/*
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #666; text-shadow: 0px 1px 0px rgba(255,255,255,0.59); background: #ececec; padding: 10px; outline: none; border: 1px solid #d8d8d8; border-bottom: 1px solid #ccc; border-radius: 3px; cursor: pointer; overflow: visible; -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57);
+	display: block;
+	padding: 10px;
+	line-height: 15px;
+	-moz-transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out; 
+    -ms-transition: all 300ms ease-out; 
+    transition: all 300ms ease-out;
+	text-decoration: none;*/
+}
+
+.operations li a:visited
+{
+	/*color: #0066A4;*/
+		color: #ff;
+}
+
+.operations li a:hover
+{
+	text-decoration:underline;
+	/*background: #80CFFF;*/
+/**	background: #ffffff; /* Old browsers */
+/**	background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); /* FF3.6+ */
+/**	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+/**	background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+/**	background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Opera 11.10+ */
+/**	background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* IE10+ */
+/**	background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* W3C */
+/**	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+/**	box-shadow: 0px 1px 0px none inset;
+/**	border: 1px solid none;
+	color: #888;*/
+}
+
+.table{
+	background:none!important;
+}
