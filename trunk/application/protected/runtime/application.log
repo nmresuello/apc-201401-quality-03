@@ -1,0 +1,8 @@
+2014/07/02 04:16:08 [error] [system.db.CDbCommand] Error in preparing SQL: DELETE FROM 'YiiSession' WHERE expire<:expire
+in C:\Users\student\Documents\quality\apc-201401-quality-03\trunk\application\protected\views\layouts\main.php (32)
+in C:\Users\student\Documents\quality\apc-201401-quality-03\trunk\application\protected\views\layouts\column1.php (5)
+in C:\Users\student\Documents\quality\apc-201401-quality-03\trunk\application\protected\controllers\SiteController.php (95)
+2014/07/02 04:16:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: YiiSession. The SQL statement executed was: DELETE FROM 'YiiSession' WHERE expire<:expire.
+in C:\Users\student\Documents\quality\apc-201401-quality-03\trunk\application\protected\views\layouts\main.php (32)
+in C:\Users\student\Documents\quality\apc-201401-quality-03\trunk\application\protected\views\layouts\column1.php (5)
+in C:\Users\student\Documents\quality\apc-201401-quality-03\trunk\application\protected\controllers\SiteController.php (95)
