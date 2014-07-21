@@ -1,0 +1,45 @@
+
+
+
+
+
+.mailbox-list{
+	padding: 10px !important;
+}
+
+
+.mailbox-menu-folders{
+	padding:4px 6px 4px 4px !important;
+	margin-bottom: 4px !important;
+	color: #0255c4;
+}
+
+.mailbox-menu-newmsg .ui-button{
+	background-color:#6da7ff!important;
+	font-weight:bold;
+	border-radius:5px!important;
+	border-color:#00249a!important;
+	border-radius:10px;
+	border:none;
+	padding:7px;
+	color:#000000!important;;
+	width:90px;
+	font-size:12px;
+	box-shadow:0px 0px 5px #8ccc5e;
+}
+
+.mailbox-menu-newmsg .ui-button:hover{
+	background: #448aff!important;
+   	color: #ffffff!important;
+}
+
+.mailbox-message-subject{
+	padding:10px;
+}
+
+.mailbox-compose{
+	padding:10px !important;
+}
+.mailbox-summary{
+	font-size:12px;
+}
